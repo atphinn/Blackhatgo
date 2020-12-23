@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"$GOPATH/BlackHatGo/metasploit-minimal/rpc"
+	"github.com/atphinn/Blackhatgo/metasploit-minimal/rpc"
 )
 
 func main()  {
