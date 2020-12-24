@@ -3,8 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
+	"os"
 
 	"github.com/atphinn/Blackhatgo/metasploit-minimal/rpc"
+	//"github.com/blackhat-go/bhg/ch-3/metasploit-minimal/rpc"
 )
 
 func main()  {
