@@ -47,12 +47,12 @@ func handler(i int, s *goquery.Selection)  {
 		cp.Creator,
 		cp.LastModifiedBy,
 		ap.Application,
-		ap.GetMajotVersion()
+		ap.GetMajorVersion(),
 	)
 }
 
 func main()  {
-	if len(os.Args) {
+	if len(os.Args) != 3 {
 		log.Fatalln("Missing required argument. Usage: main.go domain ext")
 	}
 	domain := os.Args[1]
@@ -62,7 +62,7 @@ func main()  {
 		"site:%s && filetype:%s && instreamset:(url title):%s",
 		domain,
 		filetype,
-		filetype
+		filetype,
 	)
 
 	search := fmt.Sprintf("http://www.bing.com/search?q=%s", url.QueryEscape(q))
