@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/atphinn/Blackhatgo/metasploit-minimal/rpc"
+	"github.com/atphinn/Blackhatgo/bing-metadata/metadata"
 	"github.com/PuerkitoBio/goquery"
 )
 
