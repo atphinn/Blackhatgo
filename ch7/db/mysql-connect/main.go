@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"log"
 	"github.com/go-sql-driver/mysql"
-
 )
 
 func main() {
